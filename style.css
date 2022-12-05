@@ -410,6 +410,7 @@ body {
         position: absolute;
         height: 70%;
         width: 60%;
+        left: 20%;
         animation: sky 200000ms linear infinite;
     }
     
