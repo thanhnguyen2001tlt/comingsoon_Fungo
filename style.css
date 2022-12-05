@@ -409,7 +409,6 @@ body {
     .night {
         position: absolute;
         width: 40%;
-        height: 70%;
         left: 40%;
         animation: sky 200000ms linear infinite;
     }
