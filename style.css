@@ -408,7 +408,6 @@ body {
 @media screen and (max-width:1920px) {
     .night {
         position: absolute;
-     
         height: 70%;
         left: 40%;
         animation: sky 200000ms linear infinite;
