@@ -1,225 +1,258 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,600,800);
-*{
+
+* {
     position: 0px;
     margin: 0px;
 }
 
-.container-fluid{
-    background-image:url(backgroud.svg) ;
+.container-fluid {
+    background-image: url(backgroud.svg);
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
     background-size: cover;
 }
-.content{
+
+.content {
     width: 100%;
     height: 72%;
     display: flex;
 }
-.col-left{
+
+.col-left {
     height: 80%;
     width: 40%;
     display: flex;
     align-items: center;
-    justify-content:end;
+    justify-content: end;
 }
-.col-right{
+
+.col-right {
     text-align: center;
     height: 100%;
     width: 60%;
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
 }
-.image{
+
+.image {
     height: 70%;
     width: 70%;
     transform: rotate(-14deg);
 }
-.title{
+
+.title {
     color: white;
-    font-family:'Montserrat';
+    font-family: 'Montserrat';
     font-size: 5em;
     font-weight: 700;
 
-    
+
 }
+
 @media screen and (max-width: 1720px) {
-    .content{
+    .content {
         width: 100%;
         height: 72%;
         display: flex;
     }
 }
+
 @media screen and (max-width: 1440px) {
-    .content{
+    .content {
         width: 100%;
         height: 60%;
         display: flex;
     }
 }
+
 @media screen and (max-width: 1050px) {
-    .content{
+    .content {
         width: 100%;
         height: 60%;
         display: flex;
     }
-    .image{
+
+    .image {
         height: 50%;
         width: 50%;
         transform: rotate(-14deg);
     }
-    .title{
+
+    .title {
         color: white;
-        font-family:'Montserrat';
+        font-family: 'Montserrat';
         font-size: 2em;
         font-weight: 600;
-        
+
     }
-    .col-right{
+
+    .col-right {
         text-align: center;
         height: 90%;
         width: 60%;
         display: flex;
         align-items: center;
-        justify-content:center;
+        justify-content: center;
     }
 }
+
 @media screen and (max-width: 973px) {
-    .content{
+    .content {
         width: 100%;
         height: 65%;
         display: flex;
     }
-    .image{
+
+    .image {
         height: 45%;
         width: 50%;
         transform: rotate(-14deg);
     }
-    .title{
+
+    .title {
         color: white;
-        font-family:'Montserrat';
+        font-family: 'Montserrat';
         font-size: 2.5rem;
         font-weight: 600;
-        
+
     }
-    .col-right{
+
+    .col-right {
         text-align: center;
         height: 90%;
         width: 60%;
         display: flex;
         align-items: center;
-        justify-content:center;
+        justify-content: center;
     }
 }
+
 @media screen and (min-width: 800px) and (max-width: 973px) {
-    .content{
+    .content {
         width: 100%;
         height: 80%;
         display: flex;
     }
-    .image{
+
+    .image {
         height: 60%;
         width: 60%;
         transform: rotate(-14deg);
     }
-    .title{
+
+    .title {
         color: white;
-        font-family:'Montserrat';
+        font-family: 'Montserrat';
         font-size: 2.5em;
         font-weight: 600;
-        
+
     }
-    .col-left{
+
+    .col-left {
         height: 80%;
         width: 40%;
         display: flex;
         align-items: center;
-        justify-content:center;
+        justify-content: center;
     }
-    .col-right{
+
+    .col-right {
         text-align: center;
         height: 75%;
         width: 60%;
         display: flex;
         align-items: center;
-        justify-content:center;
+        justify-content: center;
     }
 }
+
 @media screen and (max-width: 800px) {
-    .content{
+    .content {
         width: 100%;
         height: 65%;
         display: grid;
     }
-    .image{
+
+    .image {
         height: 60%;
         width: 60%;
         transform: rotate(0deg);
     }
-    .title{
+
+    .title {
         color: white;
-        font-family:'Montserrat';
+        font-family: 'Montserrat';
         font-size: 3em;
         font-weight: 600;
-        
+
     }
-    .col-right{
+
+    .col-right {
         text-align: center;
         height: 100%;
         width: 100%;
         display: flex;
         align-items: center;
-        justify-content:center;
+        justify-content: center;
     }
-    .col-left{
+
+    .col-left {
         height: 100%;
         width: 100%;
         display: flex;
         align-items: center;
-        justify-content:center;
+        justify-content: center;
     }
 }
+
 @media screen and (max-width: 420px) {
-    .content{
+    .content {
         width: 100%;
         height: 65%;
         display: grid;
     }
-    .image{
+
+    .image {
         height: 65%;
         width: 60%;
         transform: rotate(0deg);
     }
-    .title{
+
+    .title {
         color: white;
-        font-family:'Montserrat';
+        font-family: 'Montserrat';
         font-size: 2em;
         font-weight: 600;
-        
+
     }
-    .col-right{
+
+    .col-right {
         text-align: center;
         height: 100%;
         width: 100%;
         display: flex;
         align-items: center;
-        justify-content:center;
+        justify-content: center;
     }
-    .col-left{
+
+    .col-left {
         height: 100%;
         width: 100%;
         display: flex;
         align-items: center;
-        justify-content:center;
+        justify-content: center;
     }
 }
+
 body {
-    height: 100vh;
+    height: 90vh;
     overflow: hidden;
     display: flex;
     font-family: "Anton", sans-serif;
 }
+
 .night {
     position: absolute;
     width: 100%;
@@ -265,9 +298,10 @@ body {
 
 .shooting_star:nth-child(1) {
     top: calc(50% - 68px);
-    left:  14px;
+    left: 14px;
     animation-delay: 9486ms;
 }
+
 .shooting_star:nth-child(1)::before,
 .shooting_star:nth-child(1)::after {
     animation-delay: 9486ms;
@@ -278,115 +312,140 @@ body {
     left: 5px;
     animation-delay: 1568ms;
 }
+
 .shooting_star:nth-child(2)::before,
 .shooting_star:nth-child(2)::after {
     animation-delay: 1568ms;
 }
+
 .shooting_star:nth-child(3) {
     top: calc(50% - -76px);
     left: 75px;
     animation-delay: 5485ms;
 }
+
 .shooting_star:nth-child(3)::before,
 .shooting_star:nth-child(3)::after {
     animation-delay: 5485ms;
 }
+
 .shooting_star:nth-child(4) {
     top: calc(50% - 110px);
-    left:  37px;
+    left: 37px;
     animation-delay: 4941ms;
 }
+
 .shooting_star:nth-child(4)::before,
 .shooting_star:nth-child(4)::after {
 
     animation-delay: 4941ms;
 }
+
 .shooting_star:nth-child(5) {
     top: calc(50% - -153px);
-    left:  113px;
+    left: 113px;
     animation-delay: 367ms;
 }
+
 .shooting_star:nth-child(5)::before,
 .shooting_star:nth-child(5)::after {
     animation-delay: 367ms;
 }
+
 .shooting_star:nth-child(6) {
     top: calc(50% - -165px);
-    left:13px;
+    left: 13px;
     animation-delay: 5527ms;
 }
+
 .shooting_star:nth-child(6)::before,
 .shooting_star:nth-child(6)::after {
     animation-delay: 5527ms;
 }
+
 .shooting_star:nth-child(7) {
     top: calc(50% - -64px);
-    left:  13px;
+    left: 13px;
     animation-delay: 7870ms;
 }
+
 .shooting_star:nth-child(7)::before,
 .shooting_star:nth-child(7)::after {
     animation-delay: 7870ms;
 }
+
 .shooting_star:nth-child(8) {
     top: calc(50% - -722px);
     left: 298px;
     animation-delay: 8755ms;
 }
+
 .shooting_star:nth-child(8)::before,
 .shooting_star:nth-child(8)::after {
     animation-delay: 8755ms;
 }
+
 .shooting_star:nth-child(9) {
     top: calc(50% - 144px);
-    left:  206px;
+    left: 206px;
     animation-delay: 7014ms;
 }
+
 .shooting_star:nth-child(9)::before,
 .shooting_star:nth-child(9)::after {
     animation-delay: 7014ms;
 }
+
 .shooting_star:nth-child(10) {
     top: calc(50% - -400px);
-    left:  158px;
+    left: 158px;
     animation-delay: 6371ms;
 }
+
 .shooting_star:nth-child(10)::before,
 .shooting_star:nth-child(10)::after {
     animation-delay: 6371ms;
 }
+
 .shooting_star:nth-child(11) {
     top: calc(50% - -800px);
-    left:  227px;
+    left: 227px;
     animation-delay: 8828ms;
 }
+
 .shooting_star:nth-child(11)::before,
 .shooting_star:nth-child(11)::after {
     animation-delay: 8828ms;
 }
+
 .shooting_star:nth-child(12) {
     top: calc(50% - 80px);
     left: 95px;
     animation-delay: 4273ms;
 }
+
 .shooting_star:nth-child(12)::before,
 .shooting_star:nth-child(12)::after {
     animation-delay: 4273ms;
 }
+
 .shooting_star:nth-child(13) {
     top: calc(50% - -147px);
-    left:  266px;
+    left: 266px;
     animation-delay: 2869ms;
 }
+
 .shooting_star:nth-child(13)::before,
 .shooting_star:nth-child(13)::after {
     animation-delay: 2869ms;
 }
+
 .shooting_star:nth-child(14) {
     top: calc(50% - 176px);
     left: 22px;
     animation-delay: 6980ms;
 }
+
 .shooting_star:nth-child(14)::before,
 .shooting_star:nth-child(14)::after {
     animation-delay: 6980ms;
@@ -394,7 +453,7 @@ body {
 
 .shooting_star:nth-child(15) {
     top: calc(50% - -280px);
-    left:  175px;
+    left: 175px;
     animation-delay: 858ms;
 }
 
@@ -405,7 +464,7 @@ body {
 
 .shooting_star:nth-child(16) {
     top: calc(50% - 72px);
-    left:  259px;
+    left: 259px;
     animation-delay: 9343ms;
 }
 
@@ -416,7 +475,7 @@ body {
 
 .shooting_star:nth-child(17) {
     top: calc(50% - 308px);
-    left:  97px;
+    left: 97px;
     animation-delay: 3325ms;
 }
 
@@ -427,7 +486,7 @@ body {
 
 .shooting_star:nth-child(18) {
     top: calc(50% - -540px);
-    left:  141px;
+    left: 141px;
     animation-delay: 2846ms;
 }
 
@@ -438,7 +497,7 @@ body {
 
 .shooting_star:nth-child(19) {
     top: calc(50% - 154px);
-    left:  119px;
+    left: 119px;
     animation-delay: 1655ms;
 }
 
@@ -449,7 +508,7 @@ body {
 
 .shooting_star:nth-child(20) {
     top: calc(50% - -680px);
-    left:  253px;
+    left: 253px;
     animation-delay: 9590ms;
 }
 
@@ -474,6 +533,7 @@ body {
     left: 192px;
     animation-delay: 4273ms;
 }
+
 .shooting_star:nth-child(22)::before,
 .shooting_star:nth-child(22)::after {
     animation-delay: 4273ms;
@@ -481,7 +541,7 @@ body {
 
 .shooting_star:nth-child(23) {
     top: calc(50% - 400px);
-    left:  102px;
+    left: 102px;
     animation-delay: 1273ms;
 }
 
@@ -489,6 +549,7 @@ body {
 .shooting_star:nth-child(23)::after {
     animation-delay: 1273ms;
 }
+
 @keyframes tail {
     0% {
         width: 0;
@@ -497,7 +558,7 @@ body {
     30% {
         width: 200px;
     }
-   
+
     100% {
         width: 0;
     }
@@ -536,4 +597,3 @@ body {
         transform: rotate(120deg);
     }
 }
-
