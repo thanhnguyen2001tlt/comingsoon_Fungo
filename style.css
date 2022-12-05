@@ -432,4 +432,18 @@ body {
         height: 64%;
         display: flex;
     } 
+
+    .image {
+        height: 60%;
+        width: 60%;
+        transform: rotate(-14deg);
+    }
+    
+    .title {
+        color: white;
+        font-family: 'Montserrat';
+        font-size: 3em;
+        font-weight: 500;
+    }
+    
 }
