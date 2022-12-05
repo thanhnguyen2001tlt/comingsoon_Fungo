@@ -5,6 +5,13 @@
     margin: 0px;
 }
 
+body {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    font-family: "Anton", sans-serif;
+}
+
 .container-fluid {
     background-image: url(backgroud.svg);
     background-repeat: no-repeat;
