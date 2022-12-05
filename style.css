@@ -52,13 +52,6 @@
 }
 
 
-body {
-    height: 90vh;
-    overflow: hidden;
-    display: flex;
-    font-family: "Anton", sans-serif;
-}
-
 .night {
     position: absolute;
     width: 100%;
@@ -404,14 +397,3 @@ body {
     }
 }
 
-@media screen and (max-width: 1920px) {
-
-    body {
-        height: 50vh;
-        overflow: hidden;
-        display: flex;
-        font-family: "Anton", sans-serif;
-    }
-
-
-}
