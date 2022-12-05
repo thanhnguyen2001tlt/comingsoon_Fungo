@@ -8,7 +8,7 @@
 .container-fluid {
     background-image: url(backgroud.svg);
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-size: cover;
     overflow: hidden;
