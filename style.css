@@ -54,7 +54,7 @@ body {
 
 .content {
     width: 100%;
-    height: 90%;
+    height: 100%;
     display: flex;
 }
 
@@ -439,7 +439,7 @@ body {
 @media screen and (max-width: 1280px) {
     .content {
         width: 100%;
-        height: 50%;
+        height: 70%;
         display: flex;
     }
 
@@ -452,7 +452,7 @@ body {
 
     .col-left {
         height: 85%;
-        width: 90%;
+        width: 80%;
         display: center;
         align-items: center;
         justify-content: center;
