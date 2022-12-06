@@ -525,8 +525,8 @@ body {
     }
     .button {
         position: absolute;
-        top: 90%;
-        left: 80%;
+        top: 86%;
+        left: 75%;
         height: 51px;
         width: 222px;
         background: linear-gradient(93.03deg, #F9D275 28.88%, rgba(217, 217, 217, 0) 120.99%);
@@ -592,8 +592,8 @@ body {
     }
     .button {
         position: absolute;
-        top: 30%;
-        left: 30%;
+        top: 72%;
+        left: 37%;
         height: 51px;
         width: 222px;
         background: linear-gradient(93.03deg, #F9D275 28.88%, rgba(217, 217, 217, 0) 120.99%);
@@ -660,8 +660,8 @@ body {
     }
     .button {
         position: absolute;
-        top: 10%;
-        left: 10%;
+        top: 64%;
+        left: 17%;
         height: 40px;
         width: 180px;
         background: linear-gradient(93.03deg, #F9D275 28.88%, rgba(217, 217, 217, 0) 120.99%);
