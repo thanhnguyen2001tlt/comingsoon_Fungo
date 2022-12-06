@@ -103,7 +103,7 @@ body {
     left: -50%;
     top: 0%;
     height: 2px;
-    background: linear-gradient(-45deg, #5f91ff, rgba(0, 0, 255, 0));
+    background: linear-gradient(-45deg, #f2df4e, rgba(0, 0, 255, 0));
     border-radius: 999px;
     filter: drop-shadow(0 0 6px #699bff);
     animation: tail 3000ms ease-in-out infinite, shooting 3000ms ease-in-out infinite;
@@ -115,7 +115,7 @@ body {
     top: calc(50% - 1px);
     right: 0;
     height: 2px;
-    background: linear-gradient(-45deg, rgba(0, 0, 255, 0), #5f91ff, rgba(0, 0, 255, 0));
+    background: linear-gradient(-45deg, rgba(0, 0, 255, 0), #f8f174, rgba(0, 0, 255, 0));
     transform: translateX(50%) rotateZ(45deg);
     border-radius: 100%;
     animation: shining 3000ms ease-in-out infinite;
@@ -127,7 +127,7 @@ body {
     top: calc(50% - 1px);
     right: 0;
     height: 2px;
-    background: linear-gradient(-45deg, rgba(0, 0, 255, 0), #5f91ff, rgba(0, 0, 255, 0));
+    background: linear-gradient(-45deg, rgba(0, 0, 255, 0), #edd76a, rgba(0, 0, 255, 0));
     transform: translateX(50%) rotateZ(45deg);
     border-radius: 100%;
     animation: shining 3000ms ease-in-out infinite;
