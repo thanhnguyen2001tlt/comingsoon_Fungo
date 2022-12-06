@@ -46,22 +46,21 @@ body {
     .title {
         color: white;
         font-family: 'Montserrat';
-        font-size: 4em;
+        font-size: 3.5em;
         font-weight: 600;
     }
 
     .col-left {
-        height: 70%;
-        width: 40%;
-        display: center;
+        height: 57%;
+        width: 380%;
         align-items: center;
         justify-content: center;
     }
 
     .col-right {
         text-align: center;
-        height: 90%;
-        width:40%;
+        height: 74%;
+        width:60%;
         display: center;
         align-items: center;
         justify-content: center;
