@@ -660,10 +660,10 @@ body {
     }
     .button {
         position: absolute;
-        top: 30%;
-        left: 30%;
-        height: 51px;
-        width: 222px;
+        top: 10%;
+        left: 10%;
+        height: 40px;
+        width: 180px;
         background: linear-gradient(93.03deg, #F9D275 28.88%, rgba(217, 217, 217, 0) 120.99%);
         border-radius: 21px;
         font-family: 'Montserrat';
